@@ -18,3 +18,16 @@ jobs:
       - run: node bin/cm.js install
 
       - run: npm test
+        const { from, to } = editor.state.selection.main;
+
+        editor.dispatch({
+          changes: { from, to, insert: text },
+          selection: { anchor: from + text.length },
+        });hello world
+                const { from, to } = editor.state.selection.main;
+
+        editor.dispatch({
+          changes: { from, to, insert: text },
+          selection: { anchor: from + text.length },
+        });(in-law 
+        
